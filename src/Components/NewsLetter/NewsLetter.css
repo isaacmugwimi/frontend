@@ -1,0 +1,11 @@
+.newsLetter {
+  border: 2px solid blue;
+  margin: 0 15%;
+  height: 80vh;
+  background: linear-gradient(180deg, rgba(255, 192, 203, 0.747), beige 60%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newsLetter 

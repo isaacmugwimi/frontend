@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+}
+.offers {
+  display: flex;
+  background: linear-gradient(180deg, rgba(255, 192, 203, 0.747), beige 60%);
+  height: 70vh;
+  margin: 0px 15%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  padding-bottom: 30px;
+}
+
+.exclusive-offers-left p {
+  color: #171717;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.exclusive-offers-left .p1 {
+  color: lightslategray;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.exclusive-offers-left button {
+  width: 250px;
+  height: 50px;
+  background: linear-gradient(45deg, red, rgba(0, 0, 255, 0.767) 70%);
+  border-radius: 70px;
+  margin-top: 40px;
+  border: none;
+  font-size: 22px;
+  color: white;
+  font-weight: 600;
+}
+
+.exclusive-offers-left button:hover {
+  transform: scale(1.3);
+  transition: 0.4s ease-in-out;
+}
+
+.exclusive-offers-right {
+  height: 100%;
+}
+
+.exclusive-offers-right img {
+  height: 90%;
+}
