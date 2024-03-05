@@ -67,3 +67,21 @@
   margin: 0 10px auto;
   padding-top: 10px;
 }
+.loadMoreBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  font-size: 20px;
+  background: lightslategray;
+  margin: 30px 0;
+  padding: 30px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.loadMoreBtn:hover {
+  background: rgb(128, 128, 128);
+  transform: scale(0.8);
+  transition: 0.3s ease-in-out;
+}
