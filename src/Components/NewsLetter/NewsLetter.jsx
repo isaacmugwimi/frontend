@@ -7,10 +7,18 @@ export const NewsLetter = () => {
       <h1>Get Exclusive Offers On Your Email</h1>
 
       <p className="p1">Subscribe to our newsletter and stay updated</p>
-      <div className="subscribe">
-        <input type="text" name="" id="" placeholder="your email or Id" />
-        <button>Subscribe</button>
-      </div>
+      <form action="">
+        <div>
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="your email or Id"
+            required
+          />
+          <button>Subscribe</button>
+        </div>
+      </form>
 
       {/* <div className="newsletterFooter">
         
